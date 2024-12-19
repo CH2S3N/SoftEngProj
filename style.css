@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav {
+    padding: 20px;
+    position: sticky;
+    z-index: 10; 
+    background-color: #3C3D37;
+}
+.navbar-brand {
+    font-size: 40px;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(0, 0, 0, 0.1);
+}
+header{
+    background-size: cover;
+    background-position: center 25%;
+    filter: blur(10px);
+    height: 300px; 
+    position: absolute; 
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+footer{
+    background-color: #3C3D37;
+    background-size: cover;
+    background-position: center 25%;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(0, 0, 0, 0.25);
+    margin-bottom: 100px;
+    margin-top: 0;
+    padding: 300px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.video-bg {
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(5px);
+}
