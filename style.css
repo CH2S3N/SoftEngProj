@@ -44,9 +44,9 @@ footer{
     align-items: center;
     text-align: center;
     background: rgb(0, 0, 0, 0.25);
-    margin-bottom: 100px;
+    margin-bottom: 5vh;
     margin-top: 0;
-    padding: 300px;
+    padding: 10vh;
     position: relative;
     overflow: hidden;
     width: 100%;
